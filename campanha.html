@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campanha - Catálogo Lima Calixto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="container header-container">
+            <a href="/" class="logo-container" aria-label="Página Inicial">
+                <img src="imagens/logo/logo-lima-calixto.png" alt="Logo Lima Calixto" class="header-logo">
+            </a>
+             <!-- O título será preenchido via JS -->
+            <h1 id="campaignTitle" class="header-title">Campanha Especial</h1>
+            <div class="header-controls">
+                <a href="/" class="back-button" aria-label="Voltar para o catálogo principal">
+                    <i class="fas fa-arrow-left"></i> Voltar ao Catálogo
+                </a>
+                <button id="darkModeToggle" class="dark-mode-button" aria-label="Alternar modo escuro">
+                    <i class="fa-solid fa-moon"></i>
+                    <i class="fa-solid fa-sun"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- A descrição da campanha pode ser adicionada aqui -->
+        <div id="campaignDescription" class="campaign-description"></div>
+
+        <section id="product-grid" class="product-grid campaign-grid">
+            <!-- Cards de produtos inseridos via JS -->
+        </section>
+    </main>
+
+    <div id="productModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" aria-label="Fechar modal">&times;</span>
+            <div id="modalBody">
+                <!-- Conteúdo do modal inserido via JS -->
+            </div>
+        </div>
+    </div>
+
+    <button id="backToTopBtn" title="Voltar ao topo"><i class="fas fa-arrow-up"></i></button>
+
+    <footer class="site-footer">
+        <div class="container footer-profile">
+            <img src="imagens/logo/logo-lima-calixto.png" alt="Logo Lima Calixto" class="footer-logo">
+            <h3>Lima Calixto Personalizados</h3>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Lima Calixto Personalizados. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Usaremos um script dedicado para as páginas de campanha -->
+    <script src="/campanha.js"></script>
+</body>
+</html>

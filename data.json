@@ -18,7 +18,8 @@
       "tamanhos": [
         "20cm"
       ]
-    }
+    },
+    "campanhas": [ "natal" ]
   },
   {
     "id": 2,
@@ -39,7 +40,8 @@
       "tamanhos": [
         "6.5cm"
       ]
-    }
+    },
+    "campanhas": [ "natal" ]
   },
   {
     "id": 3,
@@ -60,7 +62,8 @@
       "tamanhos": [
         "Capacidade 325ml"
       ]
-    }
+    },
+    "campanhas": [ "natal" ]
   },
   {
     "id": 4,
@@ -81,7 +84,8 @@
       "tamanhos": [
         "Capacidade 475ml"
       ]
-    }
+    },
+    "campanhas": [ "natal" ]
   },
   {
     "id": 5,
@@ -166,7 +170,8 @@
       "tamanhos": [
         "20cm"
       ]
-    }
+    },
+    "campanhas": [ "natal" ]
   },
   {
     "id": 9,
@@ -187,7 +192,8 @@
       "tamanhos": [
         "A4"
       ]
-    }
+    },
+    "campanhas": [ "natal" ]
   },
   {
     "id": 10,
@@ -229,7 +235,8 @@
       "tamanhos": [
         "4cm"
       ]
-    }
+    },
+    "campanhas": [ "natal" ]
   },
   {
     "id": 12,
@@ -314,5 +321,27 @@
         "1080x1920px"
       ]
     }
+  },
+  {
+    "id": 16,
+    "nome": "Caneca de Porcelana 325ml – Dia das Mães",
+    "descricao": "Demonstre todo o carinho e gratidão por quem sempre esteve ao seu lado com a Caneca de Porcelana 325ml – Dia das Mães. Com um design cheio de amor, delicadeza e detalhes que emocionam, esta caneca é o presente perfeito para celebrar a força, a ternura e a beleza de ser mãe.\r\n\r\nFabricada em porcelana de alta qualidade, possui brilho impecável, acabamento perfeito e impressão resistente, garantindo cores vivas e durabilidade. A mensagem carinhosa acompanhada da possibilidade de personalizar com foto torna o presente ainda mais especial, único e cheio de significado.",
+    "categoria": "sublimacao",
+    "preco": 38,
+    "imagem": "imagens/sublimacao/imagem-1764436791585-27044973.jpg",
+    "estoque": 8,
+    "emPromocao": false,
+    "linkMockups": "https://drive.google.com/drive/folders/1lno54sG5oTN9Qm5n4576V2zFI1VtqiSz?usp=sharing",
+    "especificacoes": {
+      "material": "Porcelana",
+      "dimensoes": "11x9.5cm",
+      "cores": [
+        "Branca"
+      ],
+      "tamanhos": [
+        "Capacidade 325ml"
+      ]
+    },
+    "campanhas": [ "dia-das-maes" ]
   }
 ]
