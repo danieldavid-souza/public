@@ -223,6 +223,25 @@ input:checked + .slider:before { transform: translateX(20px); }
 .slider.round:before { border-radius: 50%; }
 .filter-group span { vertical-align: middle; margin-left: 8px; }
 
+/* Botão de Campanhas */
+.campaigns-button {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.campaigns-button:hover { background-color: #0056b3; }
+
 /* --- GRID DE PRODUTOS --- */
 .product-grid {
     display: grid;
@@ -470,6 +489,35 @@ input:checked + .slider:before { transform: translateX(20px); }
     font-size: 1.2rem; /* Tamanho do ícone */
 }
 
+/* --- MODAL DE CAMPANHAS --- */
+.campaigns-modal-body {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.campaign-card {
+    display: block;
+    padding: 15px;
+    background-color: var(--bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--text-color);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.campaign-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px var(--shadow-color);
+    color: var(--primary-color);
+}
+
+.campaign-card i {
+    font-size: 1.2rem; /* Tamanho do ícone */
+}
+
 /* --- ANIMAÇÕES --- */
 @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 @keyframes slideIn { from { transform: translateY(-50px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
@@ -565,6 +613,13 @@ input:checked + .slider:before { transform: translateX(20px); }
     color: var(--primary-color);
     padding-left: 5px;
 }
+
+/* Estilo para a lista de campanhas no rodapé */
+#footerCampaigns {
+    column-count: 2; /* Divide a lista em 2 colunas */
+    column-gap: 20px; /* Espaço entre as colunas */
+}
+
 
 .social-links a {
     display: inline-flex;

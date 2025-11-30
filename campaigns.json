@@ -1,0 +1,70 @@
+{
+    "natal": {
+        "title": "Especial de Natal",
+        "description": "Confira nossos produtos selecionados para celebrar o Natal com muito carinho e personalidade."
+    },
+    "dia-das-maes": {
+        "title": "Dia das Mães",
+        "description": "Presentes únicos para a pessoa mais especial da sua vida."
+    },
+    "dia-dos-pais": {
+        "title": "Dia dos Pais",
+        "description": "Surpreenda seu herói com um presente que é a cara dele."
+    },
+    "dia-dos-namorados": {
+        "title": "Dia dos Namorados",
+        "description": "Demonstre seu amor com presentes criativos e românticos."
+    },
+    "dia-das-criancas": {
+        "title": "Dia das Crianças",
+        "description": "Alegria e diversão em forma de presentes para os pequenos."
+    },
+    "dia-dos-avos": {
+        "title": "Dia dos Avós",
+        "description": "Mimos cheios de afeto para celebrar a sabedoria e o carinho dos avós."
+    },
+    "dia-dos-professores": {
+        "title": "Dia dos Professores",
+        "description": "Homenageie quem ensina com o coração."
+    },
+    "setembro-amarelo": {
+        "title": "Setembro Amarelo",
+        "description": "Produtos que inspiram conversas e apoiam a valorização da vida."
+    },
+    "outubro-rosa": {
+        "title": "Outubro Rosa",
+        "description": "Abrace esta causa com produtos que conscientizam e encantam."
+    },
+    "novembro-azul": {
+        "title": "Novembro Azul",
+        "description": "Apoie a saúde masculina com presentes e lembranças especiais."
+    },
+    "volta-as-aulas": {
+        "title": "Volta às Aulas",
+        "description": "Comece o ano letivo com tudo personalizado e organizado."
+    },
+    "dia-do-amigo": {
+        "title": "Dia do Amigo",
+        "description": "Celebre a amizade com presentes que marcam e fortalecem laços."
+    },
+    "black-friday": {
+        "title": "Black Friday",
+        "description": "As melhores ofertas do ano estão aqui. Aproveite!"
+    },
+    "aniversario": {
+        "title": "Especial de Aniversário",
+        "description": "Comemore conosco com promoções exclusivas e produtos especiais."
+    },
+    "modernizacao-praticidade": {
+        "title": "Modernização e Praticidade",
+        "description": "Soluções que facilitam o seu dia a dia com tecnologia e design."
+    },
+    "default": {
+        "title": "Campanha Especial",
+        "description": "Produtos selecionados especialmente para você."
+    },
+    "dia-do-cliente": {
+        "title": "Dia do Cliente",
+        "description": "Hoje é seu dia, mas quem comemora somos nós — por ter você com a gente! Feliz Dia do Cliente!"
+    }
+}

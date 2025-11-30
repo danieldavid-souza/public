@@ -1,3 +1,6 @@
+// Importa os detalhes das campanhas do arquivo de configuração central
+import { campaignDetails } from './config.js';
+
 document.addEventListener('DOMContentLoaded', async () => {
     // --- CONFIGURAÇÕES E SELETORES ---
     const WHATSAPP_NUMBER = '5511999999999'; // Insira seu número de WhatsApp
@@ -10,7 +13,11 @@ document.addEventListener('DOMContentLoaded', async () => {
     const modal = document.getElementById('productModal');
     const modalBody = document.getElementById('modalBody');
     const backToTopBtn = document.getElementById('backToTopBtn');
-    const closeModalButton = document.querySelector('.close-button');
+    
+    // Seletores para o novo modal de campanhas
+    const campaignsBtn = document.getElementById('campaignsBtn');
+    const campaignsModal = document.getElementById('campaignsModal');
+    const campaignsModalBody = document.getElementById('campaignsModalBody');
 
     let produtos = [];
     let currentFilters = {
@@ -26,6 +33,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         await loadProducts();
         renderCategoryFilters();
         applyFiltersAndSort();
+        renderCampaignsModal(); // Prepara o conteúdo do modal de campanhas
         setupEventListeners();
     }
 
@@ -85,6 +93,28 @@ document.addEventListener('DOMContentLoaded', async () => {
                 applyFiltersAndSort();
             });
         });
+    }
+
+    // --- MODAL DE CAMPANHAS ---
+    function renderCampaignsModal() {
+        campaignsModalBody.innerHTML = ''; // Limpa o conteúdo anterior
+
+        for (const id in campaignDetails) {
+            // Ignora a campanha 'default' na listagem
+            if (id === 'default') continue;
+
+            const details = campaignDetails[id];
+            const campaignCard = document.createElement('a');
+            campaignCard.href = `/campanha.html?id=${id}`;
+            campaignCard.className = 'campaign-card';
+            campaignCard.innerHTML = `<strong>${details.title}</strong>`;
+            campaignsModalBody.appendChild(campaignCard);
+        }
+    }
+
+    function openCampaignsModal() {
+        campaignsModal.style.display = 'block';
+        document.body.style.overflow = 'hidden';
     }
 
     // --- FILTROS E ORDENAÇÃO ---
@@ -198,10 +228,16 @@ document.addEventListener('DOMContentLoaded', async () => {
         document.getElementById('whatsappQuoteBtn').addEventListener('click', () => sendWhatsAppQuote(product.id));
     }
 
-    function closeModal() {
-        modal.style.display = 'none';
-        document.body.style.overflow = 'auto';
-    }
+    function closeAllModals() {
+        // Esconde todos os modais
+        if (modal) modal.style.display = 'none';
+        if (campaignsModal) campaignsModal.style.display = 'none';
+
+        // Restaura o scroll do corpo da página apenas se nenhum modal estiver visível
+        if ((!modal || modal.style.display === 'none') && (!campaignsModal || campaignsModal.style.display === 'none')) {
+            document.body.style.overflow = 'auto';
+        }
+    }    
 
     function sendWhatsAppQuote(productId) {
         const product = produtos.find(p => p.id === productId);
@@ -255,11 +291,20 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         darkModeToggle.addEventListener('click', toggleDarkMode);
         backToTopBtn.addEventListener('click', scrollToTop);
-        closeModalButton.addEventListener('click', closeModal);
-        window.addEventListener('click', (e) => { if (e.target === modal) closeModal(); });
+        campaignsBtn.addEventListener('click', openCampaignsModal);
+
+        // Adiciona listeners para fechar qualquer modal aberto
+        document.querySelectorAll('.close-button').forEach(btn => {
+            btn.addEventListener('click', closeAllModals);
+        });
+        window.addEventListener('click', (e) => { 
+            if (e.target === modal || e.target === campaignsModal) {
+                closeAllModals();
+            }
+        });
         window.addEventListener('scroll', handleScroll);
-        window.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeModal(); });
-    }
+        window.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeAllModals(); });
+    }    
 
     // Inicia a aplicação
     initializeApp();

@@ -19,7 +19,9 @@
         "20cm"
       ]
     },
-    "campanhas": [ "natal" ]
+    "campanhas": [
+      "natal"
+    ]
   },
   {
     "id": 2,
@@ -41,7 +43,9 @@
         "6.5cm"
       ]
     },
-    "campanhas": [ "natal" ]
+    "campanhas": [
+      "natal"
+    ]
   },
   {
     "id": 3,
@@ -63,7 +67,9 @@
         "Capacidade 325ml"
       ]
     },
-    "campanhas": [ "natal" ]
+    "campanhas": [
+      "natal"
+    ]
   },
   {
     "id": 4,
@@ -85,12 +91,14 @@
         "Capacidade 475ml"
       ]
     },
-    "campanhas": [ "natal" ]
+    "campanhas": [
+      "natal"
+    ]
   },
   {
     "id": 5,
     "nome": "Caneca de Polímero 325ml – Batizado / Madrinha",
-    "descricao": "Celebre um momento único com a nossa Caneca de Polímero 325ml – Batizado, criada especialmente para homenagear quem recebe a missão tão especial de ser madrinha. Com um design encantador em tons suaves e ilustrações fofas de bichinhos, esta caneca transmite carinho, ternura e significado.\r\n\r\nFeita em polímero de alta qualidade, é leve, resistente a quedas e possui excelente durabilidade – ideal para uso diário ou para guardar como lembrança. A impressão é vibrante, nítida e não desbota com facilidade, garantindo que o presente permaneça tão especial quanto o próprio momento do batizado.",
+    "descricao": "Celebre um momento único com a nossa Caneca de Polímero 325ml – Batizado, criada especialmente para homenagear quem recebe a missão tão especial de ser madrinha. Com um design encantador em tons suaves e ilustrações fofas de bichinhos, esta caneca transmite carinho, ternura e significado.\n\nFeita em polímero de alta qualidade, é leve, resistente a quedas e possui excelente durabilidade – ideal para uso diário ou para guardar como lembrança. A impressão é vibrante, nítida e não desbota com facilidade, garantindo que o presente permaneça tão especial quanto o próprio momento do batizado.",
     "categoria": "sublimacao",
     "preco": 35,
     "imagem": "imagens/sublimacao/imagem-1764272519532-327445183.png",
@@ -107,12 +115,15 @@
       "tamanhos": [
         "Capacidade 325ml"
       ]
-    }
+    },
+    "campanhas": [
+      "nascimento"
+    ]
   },
   {
     "id": 6,
     "nome": "Caneca de Alumínio 600ml – Feliz Ano Novo",
-    "descricao": "Brinde à chegada de um novo ciclo com a nossa Caneca de Alumínio 600ml, perfeita para celebrar momentos especiais com estilo e praticidade. Com acabamento metálico moderno e arte vibrante de “Feliz Ano Novo”, esta caneca é ideal para festas, encontros em família, confraternizações e comemorações em geral.\r\n\r\nFeita em alumínio de alta qualidade, é leve, resistente e mantém a bebida gelada por mais tempo — perfeita para quem gosta de aproveitar cada brinde com conforto. Seu design robusto e alça reforçada garantem segurança no uso, enquanto a capacidade generosa de 600ml oferece o tamanho ideal para bebidas variadas.",
+    "descricao": "Brinde à chegada de um novo ciclo com a nossa Caneca de Alumínio 600ml, perfeita para celebrar momentos especiais com estilo e praticidade. Com acabamento metálico moderno e arte vibrante de “Feliz Ano Novo”, esta caneca é ideal para festas, encontros em família, confraternizações e comemorações em geral.\n\nFeita em alumínio de alta qualidade, é leve, resistente e mantém a bebida gelada por mais tempo — perfeita para quem gosta de aproveitar cada brinde com conforto. Seu design robusto e alça reforçada garantem segurança no uso, enquanto a capacidade generosa de 600ml oferece o tamanho ideal para bebidas variadas.",
     "categoria": "sublimacao",
     "preco": 35,
     "imagem": "imagens/sublimacao/imagem-1764275432543-592115665.jpg",
@@ -128,12 +139,16 @@
       "tamanhos": [
         "Capacidade 600ml"
       ]
-    }
+    },
+    "campanhas": [
+      "ano-novo",
+      "dia-do-amigo"
+    ]
   },
   {
     "id": 7,
     "nome": "Squeeze de Alumínio 600ml – Educador(a)",
-    "descricao": "Leve mais inspiração e praticidade para o dia a dia com nosso Squeeze de Alumínio 600ml, perfeito para professores(as) e profissionais da educação que fazem a diferença com dedicação, sabedoria e paciência. Com design moderno em acabamento metálico e arte exclusiva, este squeeze traz uma mensagem especial que valoriza a nobre missão de educar.\r\n\r\nFabricado em alumínio resistente, é leve, durável e ideal para uso escolar, no trabalho, em atividades físicas ou na rotina diária. A tampa com bico dosador e proteção facilita o consumo da bebida e evita vazamentos, garantindo praticidade em qualquer ocasião. Além disso, pode ser personalizado com nome, tornando o presente ainda mais único e especial.",
+    "descricao": "Leve mais inspiração e praticidade para o dia a dia com nosso Squeeze de Alumínio 600ml, perfeito para professores(as) e profissionais da educação que fazem a diferença com dedicação, sabedoria e paciência. Com design moderno em acabamento metálico e arte exclusiva, este squeeze traz uma mensagem especial que valoriza a nobre missão de educar.\n\nFabricado em alumínio resistente, é leve, durável e ideal para uso escolar, no trabalho, em atividades físicas ou na rotina diária. A tampa com bico dosador e proteção facilita o consumo da bebida e evita vazamentos, garantindo praticidade em qualquer ocasião. Além disso, pode ser personalizado com nome, tornando o presente ainda mais único e especial.",
     "categoria": "sublimacao",
     "preco": 35,
     "imagem": "imagens/sublimacao/imagem-1764280116437-596871777.jpg",
@@ -149,7 +164,10 @@
       "tamanhos": [
         "Capacidade 600ml"
       ]
-    }
+    },
+    "campanhas": [
+      "dia-dos-professores"
+    ]
   },
   {
     "id": 8,
@@ -171,7 +189,10 @@
         "20cm"
       ]
     },
-    "campanhas": [ "natal" ]
+    "campanhas": [
+      "natal",
+      "dia-do-amigo"
+    ]
   },
   {
     "id": 9,
@@ -193,12 +214,14 @@
         "A4"
       ]
     },
-    "campanhas": [ "natal" ]
+    "campanhas": [
+      "natal"
+    ]
   },
   {
     "id": 10,
     "nome": "Agenda Jurídica 2026 – Capa em MDF de Alta Qualidade e Alto Brilho",
-    "descricao": "Organize seu ano com estilo, praticidade e sofisticação com a Agenda Jurídica 2026, desenvolvida especialmente para profissionais do Direito que valorizam funcionalidade e uma apresentação impecável.\r\n\r\nCom capa em MDF de alta qualidade e acabamento em alto brilho, esta agenda se destaca pela durabilidade e pelo visual refinado. As artes florais delicadas, disponíveis em diferentes cores, trazem um toque de elegância moderna, enquanto o símbolo da balança jurídica reforça sua identidade profissional.\r\n\r\nIdeal para advogados, estudantes de Direito, estagiários, servidores públicos e todos que precisam de uma agenda completa e organizada para o dia a dia.",
+    "descricao": "Organize seu ano com estilo, praticidade e sofisticação com a Agenda Jurídica 2026, desenvolvida especialmente para profissionais do Direito que valorizam funcionalidade e uma apresentação impecável.\n\nCom capa em MDF de alta qualidade e acabamento em alto brilho, esta agenda se destaca pela durabilidade e pelo visual refinado. As artes florais delicadas, disponíveis em diferentes cores, trazem um toque de elegância moderna, enquanto o símbolo da balança jurídica reforça sua identidade profissional.\n\nIdeal para advogados, estudantes de Direito, estagiários, servidores públicos e todos que precisam de uma agenda completa e organizada para o dia a dia.",
     "categoria": "sublimacao",
     "preco": 65,
     "imagem": "imagens/sublimacao/imagem-1764334987527-734119112.png",
@@ -214,7 +237,10 @@
       "tamanhos": [
         "21cm"
       ]
-    }
+    },
+    "campanhas": [
+      "professoes"
+    ]
   },
   {
     "id": 11,
@@ -236,12 +262,14 @@
         "4cm"
       ]
     },
-    "campanhas": [ "natal" ]
+    "campanhas": [
+      "natal"
+    ]
   },
   {
     "id": 12,
     "nome": "Plaquinha Acrílica para Chave PIX – Elegante e Profissional",
-    "descricao": "Facilite seus recebimentos e transmita mais profissionalismo com a Plaquinha Acrílica para Chave PIX, ideal para estabelecimentos comerciais, consultórios, escritórios, salões de beleza, eventos e autônomos.\r\n\r\nFabricada em acrílico cristal de alta qualidade, a plaquinha oferece excelente visibilidade e um acabamento moderno que combina com qualquer ambiente. A arte é impressa em alta definição, garantindo cores vivas, nitidez e leitura clara das informações.\r\n\r\nPerfeita para exibir sua chave PIX (CPF, e-mail, telefone ou chave aleatória) de forma organizada, prática e elegante.",
+    "descricao": "Facilite seus recebimentos e transmita mais profissionalismo com a Plaquinha Acrílica para Chave PIX, ideal para estabelecimentos comerciais, consultórios, escritórios, salões de beleza, eventos e autônomos.\n\nFabricada em acrílico cristal de alta qualidade, a plaquinha oferece excelente visibilidade e um acabamento moderno que combina com qualquer ambiente. A arte é impressa em alta definição, garantindo cores vivas, nitidez e leitura clara das informações.\n\nPerfeita para exibir sua chave PIX (CPF, e-mail, telefone ou chave aleatória) de forma organizada, prática e elegante.",
     "categoria": "personalizados",
     "preco": 18,
     "imagem": "imagens/personalizados/imagem-1764349850052-119188424.png",
@@ -257,12 +285,15 @@
       "tamanhos": [
         "15cm"
       ]
-    }
+    },
+    "campanhas": [
+      "modernizacao-praticidade"
+    ]
   },
   {
     "id": 13,
     "nome": "Calendário Triangular de Mesa 2026 – Personalizado",
-    "descricao": "Organize seu ano com praticidade e dê um toque profissional ao seu ambiente com o Calendário Triangular de Mesa 2026. Ideal para escritórios, comércios, escolas, consultórios e uso pessoal, ele oferece visual moderno, excelente acabamento e espaço para personalização com sua logo, fotos ou artes exclusivas.\r\n\r\nCom formato triangular, é estável, elegante e ocupa pouco espaço na mesa. A impressão em alta definição garante ótima leitura e cores vibrantes, tornando seu calendário não apenas útil, mas também um item decorativo funcional.",
+    "descricao": "Organize seu ano com praticidade e dê um toque profissional ao seu ambiente com o Calendário Triangular de Mesa 2026. Ideal para escritórios, comércios, escolas, consultórios e uso pessoal, ele oferece visual moderno, excelente acabamento e espaço para personalização com sua logo, fotos ou artes exclusivas.\n\nCom formato triangular, é estável, elegante e ocupa pouco espaço na mesa. A impressão em alta definição garante ótima leitura e cores vibrantes, tornando seu calendário não apenas útil, mas também um item decorativo funcional.",
     "categoria": "personalizados",
     "preco": 12,
     "imagem": "imagens/personalizados/imagem-1764350342406-812349862.png",
@@ -278,12 +309,15 @@
       "tamanhos": [
         "27cm"
       ]
-    }
+    },
+    "campanhas": [
+      "volta-as-aulas"
+    ]
   },
   {
     "id": 14,
     "nome": "Chaveiro Redondo em MDF – Personalizado",
-    "descricao": "Guarde suas melhores memórias sempre por perto com o Chaveiro Redondo em MDF Personalizado, uma lembrancinha perfeita para presentear e eternizar momentos especiais. Produzido em MDF de alta qualidade, ele oferece excelente durabilidade, acabamento liso e impressão em alta definição, garantindo cores vivas e detalhes nítidos.\r\n\r\nCom formato redondo e design moderno, é ideal para personalizar com fotos, mensagens, artes comemorativas ou temas especiais como Natal, aniversários e datas marcantes. Leve e resistente, acompanha corrente metálica reforçada, perfeito para usar em chaves, mochilas, bolsas ou como mimo especial para clientes.",
+    "descricao": "Guarde suas melhores memórias sempre por perto com o Chaveiro Redondo em MDF Personalizado, uma lembrancinha perfeita para presentear e eternizar momentos especiais. Produzido em MDF de alta qualidade, ele oferece excelente durabilidade, acabamento liso e impressão em alta definição, garantindo cores vivas e detalhes nítidos.\n\nCom formato redondo e design moderno, é ideal para personalizar com fotos, mensagens, artes comemorativas ou temas especiais como Natal, aniversários e datas marcantes. Leve e resistente, acompanha corrente metálica reforçada, perfeito para usar em chaves, mochilas, bolsas ou como mimo especial para clientes.",
     "categoria": "sublimacao",
     "preco": 5,
     "imagem": "imagens/sublimacao/imagem-1764356160076-956516045.png",
@@ -299,12 +333,15 @@
       "tamanhos": [
         "6cm"
       ]
-    }
+    },
+    "campanhas": [
+      "natal"
+    ]
   },
   {
     "id": 15,
     "nome": "Convite Digital Infantil – Personalizado",
-    "descricao": "Transforme o início da festa em um momento ainda mais especial com o Convite Digital Infantil Personalizado! Criado com muito carinho e cheio de cores, personagens e temas divertidos, ele é perfeito para aniversários, chás, batizados e qualquer celebração infantil.\r\n\r\nProduzido em formato digital, o convite é rápido, prático e econômico, podendo ser enviado facilmente pelo WhatsApp, Instagram, e-mail ou qualquer rede social. Totalmente personalizável, você escolhe o tema, nome da criança, data, local, idade e demais informações — tudo com um design criativo que encanta convidados de todas as idades.\r\n\r\n✨ Destaques do produto:\r\n\r\nArquivo digital pronto para envio\r\n\r\nPersonalização completa (nome, idade, data, horário, local etc.)\r\n\r\nDesign infantil exclusivo e temático\r\n\r\nIdeal para convites digitais via WhatsApp e redes sociais\r\n\r\nRápido, prático e econômico\r\n\r\nAlta qualidade visual\r\n\r\nUma forma moderna, divertida e cheia de estilo de convidar quem você ama para momentos inesquecíveis!",
+    "descricao": "Transforme o início da festa em um momento ainda mais especial com o Convite Digital Infantil Personalizado! Criado com muito carinho e cheio de cores, personagens e temas divertidos, ele é perfeito para aniversários, chás, batizados e qualquer celebração infantil.\n\nProduzido em formato digital, o convite é rápido, prático e econômico, podendo ser enviado facilmente pelo WhatsApp, Instagram, e-mail ou qualquer rede social. Totalmente personalizável, você escolhe o tema, nome da criança, data, local, idade e demais informações — tudo com um design criativo que encanta convidados de todas as idades.\n\n✨ Destaques do produto:\n\nArquivo digital pronto para envio\n\nPersonalização completa (nome, idade, data, horário, local etc.)\n\nDesign infantil exclusivo e temático\n\nIdeal para convites digitais via WhatsApp e redes sociais\n\nRápido, prático e econômico\n\nAlta qualidade visual\n\nUma forma moderna, divertida e cheia de estilo de convidar quem você ama para momentos inesquecíveis!",
     "categoria": "convites_digitais",
     "preco": 8,
     "imagem": "imagens/convites_digitais/imagem-1764358432398-672420334.png",
@@ -320,7 +357,10 @@
       "tamanhos": [
         "1080x1920px"
       ]
-    }
+    },
+    "campanhas": [
+      "aniversario"
+    ]
   },
   {
     "id": 16,
@@ -342,6 +382,8 @@
         "Capacidade 325ml"
       ]
     },
-    "campanhas": [ "dia-das-maes" ]
+    "campanhas": [
+      "dia-das-maes"
+    ]
   }
 ]

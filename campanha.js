@@ -1,3 +1,6 @@
+// Importa os detalhes das campanhas do arquivo de configuração central
+import { campaignDetails } from './config.js';
+
 document.addEventListener('DOMContentLoaded', async () => {
     // --- CONFIGURAÇÕES E SELETORES ---
     const WHATSAPP_NUMBER = '5511999999999'; // Insira seu número de WhatsApp
@@ -9,24 +12,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     const closeModalButton = document.querySelector('.close-button');
     const campaignTitle = document.getElementById('campaignTitle');
     const campaignDescription = document.getElementById('campaignDescription');
-
-    // Mapeamento de IDs de campanha para nomes amigáveis e descrições
-    const campaignDetails = {
-        'natal': { title: 'Especial de Natal', description: 'Confira nossos produtos selecionados para celebrar o Natal com muito carinho e personalidade.' },
-        'dia-das-maes': { title: 'Dia das Mães', description: 'Presentes únicos para a pessoa mais especial da sua vida.' },
-        'dia-dos-pais': { title: 'Dia dos Pais', description: 'Surpreenda seu herói com um presente que é a cara dele.' },
-        'dia-dos-namorados': { title: 'Dia dos Namorados', description: 'Demonstre seu amor com presentes criativos e românticos.' },
-        'dia-das-criancas': { title: 'Dia das Crianças', description: 'Alegria e diversão em forma de presentes para os pequenos.' },
-        'dia-dos-avos': { title: 'Dia dos Avós', description: 'Mimos cheios de afeto para celebrar a sabedoria e o carinho dos avós.' },
-        'dia-dos-professores': { title: 'Dia dos Professores', description: 'Homenageie quem ensina com o coração.' },
-        'setembro-amarelo': { title: 'Setembro Amarelo', description: 'Produtos que inspiram conversas e apoiam a valorização da vida.' },
-        'outubro-rosa': { title: 'Outubro Rosa', description: 'Abrace esta causa com produtos que conscientizam e encantam.' },
-        'novembro-azul': { title: 'Novembro Azul', description: 'Apoie a saúde masculina com presentes e lembranças especiais.' },
-        'volta-as-aulas': { title: 'Volta às Aulas', description: 'Comece o ano letivo com tudo personalizado e organizado.' },
-        'dia-do-amigo': { title: 'Dia do Amigo', description: 'Celebre a amizade com presentes que marcam.' },
-        'black-friday': { title: 'Black Friday', description: 'As melhores ofertas do ano estão aqui. Aproveite!' },
-        'default': { title: 'Campanha Especial', description: 'Produtos selecionados especialmente para você.' }
-    };
 
     let produtos = [];
     let campaignId = 'default';

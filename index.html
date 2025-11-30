@@ -55,6 +55,11 @@
                 </label>
                 <span>Apenas em promoção</span>
             </div>
+            <div class="filter-group">
+                <button id="campaignsBtn" class="campaigns-button">
+                    <i class="fas fa-star"></i> Ver Campanhas
+                </button>
+            </div>
         </aside>
 
         <section id="product-grid" class="product-grid">
@@ -68,6 +73,15 @@
             <div id="modalBody">
                 <!-- Conteúdo do modal inserido via JS -->
             </div>
+        </div>
+    </div>
+
+    <!-- Novo Modal para Campanhas -->
+    <div id="campaignsModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" aria-label="Fechar modal">&times;</span>
+            <h2>Nossas Campanhas</h2>
+            <div id="campaignsModalBody" class="campaigns-modal-body"></div>
         </div>
     </div>
 
@@ -90,12 +104,7 @@
             </div>
             <div class="footer-column links">
                 <h3>Campanhas</h3>
-                <ul>
-                    <li><a href="/campanha.html?id=natal">Especial de Natal</a></li>
-                    <li><a href="/campanha.html?id=dia-das-maes">Dia das Mães</a></li>
-                    <!-- Adicione outras campanhas aqui conforme necessário -->
-                    <!-- <li><a href="/campanha.html?id=dia-dos-pais">Dia dos Pais</a></li> -->
-                </ul>
+                <p>Descubra nossas coleções especiais clicando no botão "Ver Campanhas" no menu de filtros.</p>
             </div>
             <div class="footer-column social">
                 <h3>Siga-nos nas Redes Sociais</h3>
@@ -110,6 +119,7 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <!-- Importante: mudar o tipo para "module" para usar import/export -->
+    <script type="module" src="script.js"></script>
 </body>
 </html>
