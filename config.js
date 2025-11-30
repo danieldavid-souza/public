@@ -7,7 +7,8 @@ async function fetchCampaigns() {
         return campaignData;
     }
     try {
-        const response = await fetch(`/api/campaigns?v=${new Date().getTime()}`);
+        // Alterado para buscar o arquivo JSON diretamente, em vez de uma rota de API.
+        const response = await fetch(`/campaigns.json?v=${new Date().getTime()}`);
         if (!response.ok) throw new Error('Falha ao buscar campanhas');
         campaignData = await response.json();
         return campaignData;
